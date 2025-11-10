@@ -1,0 +1,12 @@
+@echo off
+echo.
+echo === AUTO PUSH TO GITHUB ===
+git add .
+git commit -m "update %date:~0,10% %time:~0,8%"
+git push
+echo.
+echo XONG! DANG CHO VERCEL DEPLOY...
+timeout /t 30
+start https://vercel.com
+echo.
+pause
