@@ -29,13 +29,15 @@ export default function Home() {
             cursor={true}
             className="text-5xl md:text-6xl mb-8 text-purple-200 font-light"
           />
+          <div className="relative">
           <SplitText
             text="Mini-Portfolio IT"
             from="bottom"
             duration={1.8}
             stagger={0.08}
-            className="text-7xl md:text-9xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400"
+            className="text-6xl md:text-8xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 drop-shadow-2xl"
           />
+        </div>
           <button className="mt-16 text-2xl px-12 py-5 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-full hover:scale-105 transition duration-300 font-bold">
             Explore My Work
           </button>
