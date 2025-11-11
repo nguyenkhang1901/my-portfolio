@@ -24,7 +24,7 @@ export default function Home() {
       <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900 via-black to-blue-900 px-8">
         <div className="text-center">
           <Typewriter
-            text="QUOCKHAII - Asia Uni Student"
+            text="Nguyen Khang - Asia Uni Student"
             speed={80}
             cursor={true}
             className="text-5xl md:text-6xl mb-8 text-purple-200 font-light"
