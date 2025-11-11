@@ -14,7 +14,7 @@ export default function Home() {
           </span>
           <div className="space-x-12 text-lg font-medium">
             <a href="#about" className="hover:text-purple-400 transition">About</a>
-            <a href="#labs" className="hover:text-purple-400 transition">Hình Ảnh</a>
+            <a href="#labs" className="hover:text-purple-400 transition">Images</a>
             <a href="#contact" className="hover:text-purple-400 transition">Contact</a>
           </div>
         </div>
